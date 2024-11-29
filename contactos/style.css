@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.contacto {
+    background-color: #111827;
+    color: #FFFFFF;
+    padding: 40px;
+    font-family: 'Georgia', serif;
+}
+
+.contacto-contenido {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contacto h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #9CA3AF;
+    background-color: #1F2937;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.btn-enviar {
+    background-color: #9CA3AF;
+    color: #111827;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-enviar:hover {
+    background-color: #6B7280;
+}
+
+.encabezado {
+    background-color: #111827;
+    color: #FFFFFF;
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+}
+
+.Acerca, .contacto {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 70px;
+}
+
+.Suscribirse {
+    background-color: #9CA3AF;
+    padding: 10px 15px;
+    border: transparent;
+    border-radius: 7px;
+    font-size: 16px;
+}
+head{
+    background-color: #111827;
+    
+}
