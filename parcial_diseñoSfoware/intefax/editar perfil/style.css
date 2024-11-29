@@ -1,0 +1,71 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #111827;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.perfil-container {
+    background-color: #1F2937;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.perfil-form {
+    width: 100%;
+}
+
+label {
+    font-size: 16px;
+    color: #9CA3AF;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #9CA3AF;
+    margin-bottom: 15px;
+    background-color: #1F2937;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+button {
+    background-color: #9CA3AF;
+    color: #111827;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #6B7280;
+}
+
+.confirmation-message {
+    margin-top: 20px;
+    color: #28A745;
+    font-size: 18px;
+}

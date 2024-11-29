@@ -1,0 +1,121 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #9CA3AF;
+    color: #FFFFFF;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+.encabezado {
+    background-color: #111827;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.Acerca, .contacto {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.logo {
+    max-width: 70px;
+}
+
+.Suscribirse {
+    background-color: #9CA3AF;
+    color: #111827;
+    padding: 10px 15px;
+    border: transparent;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Cuerpo de Acerca de */
+.cuerpo_acerca {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px; /* Espaciado entre tarjetas */
+}
+
+/* Tarjetas */
+.card {
+    background-color: #1F2937;
+    padding: 20px;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0); /* Sombra para dar efecto de elevación */
+    text-align: center;
+    height: 300px; /* Altura fija para apariencia cuadrada */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto de agrandamiento al pasar el cursor */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+.card p {
+    font-size: 16px;
+    color: #9CA3AF;
+}
+
+/* Créditos */
+.creditos {
+    padding: 20px;
+    background-color: #1F2937;
+    text-align: center;
+    border-top: 1px solid #374151;
+}
+
+.creditos p {
+    font-size: 16px;
+    color: #9CA3AF;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .card {
+        height: auto; /* En pantallas pequeñas, permite que las tarjetas se expandan según el contenido */
+    }
+}

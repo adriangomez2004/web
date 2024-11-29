@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #111827;
+    color: #FFFFFF;
+}
+
+.encabezado {
+    background-color: #111827;
+    color: #FFFFFF;
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.Acerca, .contacto {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 70px;
+}
+
+.Suscribirse {
+    background-color: #9CA3AF;
+    padding: 10px 15px;
+    border: transparent;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.cuerpo_inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #111827;
+}
+
+.formulario {
+    flex: 1;
+    max-width: 500px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+input {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 2px #fffffF solid;
+    background-color: transparent;
+    font-size: 16px;
+
+}
+
+.botoninicio, .botonregistro {
+    padding: 15px 25px;
+    border-radius: 7px;
+    border: 1px solid #FFFFFF;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.botoninicio {
+    background-color: #FFFFFF;
+    color: #111827;
+}
+
+.botonregistro {
+    background-color: #111827;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 20px;
+}
+
+.olvidar-contrasena, .crear-cuenta {
+    color: #9CA3AF;
+    text-decoration: underline;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.imagen {
+    flex: 1;
+    max-width: 600px;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+}
+
+@media (max-width: 768px) {
+    .cuerpo_inicio {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .formulario {
+        margin-right: 0;
+        max-width: 100%;
+    }
+
+    .imagen {
+        margin-top: 20px;
+        max-width: 100%;
+    }
+}
+
+.botonnew {
+    background-color: #9CA3AF;
+    color: #111827;
+    padding: 15px 25px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 16px;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botonnew:hover {
+    background-color: #6B7280;
+
+}

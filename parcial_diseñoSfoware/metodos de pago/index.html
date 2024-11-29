@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos de Pago</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="metodos-pago-caja">
+        <h2>Métodos de Pago</h2>
+        <ul class="metodos-lista">
+            <li>
+                <button class="boton-pago nequi">Pagar con Nequi</button>
+            </li>
+            <li>
+                <button class="boton-pago tarjeta">Pagar con Tarjeta de Crédito/Débito</button>
+            </li>
+            <li>
+                <button class="boton-pago paypal">Pagar con PayPal</button>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Modal para mostrar la imagen -->
+    <div class="modal" id="modalNequi">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="Image-1.jpg" alt="Pagar con Nequi" class="imagen-nequi">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
